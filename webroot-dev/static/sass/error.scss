@@ -1,0 +1,47 @@
+@charset "UTF-8";
+//-----------------------------------------------------	
+// 404 error
+// reset样式一份
+//-----------------------------------------------------
+
+
+@import "sassCore-master/core/setting";
+@import "sassCore-master/core/reset";
+@import "sassCore-master/function";
+
+.clienterror{
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	width:600px;
+	@extend %clearfix;
+
+	.clienterror-left{
+		@include float(left);
+	}
+
+	.clienterror-right{
+		@include float(left);
+		margin-left:50px;
+
+		p{
+			font-size:30px;
+			color:$primary;
+		}
+
+		.btn-primary{
+			width: 200px;
+   			height: 40px;
+   			line-height: 40px;
+   			background: #34b9ff;
+   			border-radius: 3px;
+   			text-align: center;
+   			display: block;
+   			color: #fff;
+   			font-size: 18px;
+   			margin-top: 30px;
+		}
+	}
+}

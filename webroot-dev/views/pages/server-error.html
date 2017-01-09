@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+ - 文件描述
+ - @author ydr.me
+ - @create 2014-11-23 13:03
+ -->
+<html lang="zh">
+<head>
+  <% include ../include/meta.html %>
+  <!--coolie-->
+  <link rel="stylesheet" href="/static/css/error.css"/>
+  <!--/coolie-->
+</head>
+<body ontouchstart="" class="page-500">
+<div class="container text-center servererror">
+  <h1><i class="fi fa-diamond"></i><%=title %></h1>
+
+  <h2 class="text-danger"><%=error %></h2>
+  <% if (redirect) { %>
+  <p><a href="<%=redirect %>" class="btn btn-danger btn-lg">确定</a></p>
+  <% } %>
+  <p><a href="/" class="btn btn-danger btn-lg">确定</a></p>
+</div>
+
+
+</body>
+</html>

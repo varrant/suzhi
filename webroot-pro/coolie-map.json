@@ -1,0 +1,162 @@
+{
+  "/views/include/banner.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": []
+  },
+  "/views/include/css_common.html": {
+    "main": [],
+    "js": [],
+    "css": [
+      {
+        "dest": "/static/css/fb04b5277af2bd88b45c652284a7f7d0.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/static/css/base.css",
+            "res": [
+              "../webroot-dev/static/css/font/iconfont.eot",
+              "../webroot-dev/static/css/font/iconfont.woff",
+              "../webroot-dev/static/css/font/iconfont.ttf",
+              "../webroot-dev/static/css/font/iconfont.svg"
+            ]
+          },
+          {
+            "src": "../webroot-dev/static/css/layout.css",
+            "res": []
+          },
+          {
+            "src": "../webroot-dev/static/css/index.css",
+            "res": [
+              "../webroot-dev/static/images/index2.jpg",
+              "../webroot-dev/static/images/top-bg.jpg",
+              "../webroot-dev/static/images/step_banner.png"
+            ]
+          },
+          {
+            "src": "../webroot-dev/static/css/font/iconfont.css",
+            "res": [
+              "../webroot-dev/static/css/font/iconfont.eot",
+              "../webroot-dev/static/css/font/iconfont.woff",
+              "../webroot-dev/static/css/font/iconfont.ttf",
+              "../webroot-dev/static/css/font/iconfont.svg"
+            ]
+          }
+        ]
+      }
+    ],
+    "res": []
+  },
+  "/views/include/footer.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/images/erweima.jpg"
+    ]
+  },
+  "/views/include/header.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/images/123.png",
+      "../webroot-dev/static/images/erweima.jpg"
+    ]
+  },
+  "/views/include/js_common.html": {
+    "main": [],
+    "js": [
+      {
+        "dest": "/static/js/d41d8cd98f00b204e9800998ecf8427e.js",
+        "deps": []
+      }
+    ],
+    "css": [],
+    "res": []
+  },
+  "/views/include/meta.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": []
+  },
+  "/views/pages/about.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/images/123.png",
+      "../webroot-dev/static/images/erweima.jpg",
+      "../webroot-dev/static/images/s5.jpeg",
+      "../webroot-dev/static/images/s1.jpeg",
+      "../webroot-dev/static/images/s7.jpeg",
+      "../webroot-dev/static/images/s3.jpeg",
+      "../webroot-dev/static/images/s6.jpeg",
+      "../webroot-dev/static/images/s2.jpeg",
+      "../webroot-dev/static/images/s4.jpeg",
+      "../webroot-dev/static/images/90.jpg"
+    ]
+  },
+  "/views/pages/client-error.html": {
+    "main": [],
+    "js": [],
+    "css": [
+      {
+        "dest": "/static/css/55575b54a5a35126c446696feca451ea.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/static/css/error.css",
+            "res": []
+          }
+        ]
+      }
+    ],
+    "res": [
+      "../webroot-dev/static/images/new404.png"
+    ]
+  },
+  "/views/pages/guide.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/images/123.png",
+      "../webroot-dev/static/images/erweima.jpg"
+    ]
+  },
+  "/views/pages/index.html": {
+    "main": [
+      {
+        "src": "../webroot-dev/static/js/main/index.js",
+        "dest": "/static/js/main/bef383ca46adceb150c716e1f5e63ee6.js",
+        "deps": [
+          "../webroot-dev/static/js/widget/page-index.js",
+          "../webroot-dev/node_modules/jquery/dist/jquery.js"
+        ]
+      }
+    ],
+    "js": [
+      {
+        "dest": "/static/js/58f5ebd0bd081603d3e0742680be32c4.js",
+        "deps": [
+          "../webroot-dev/node_modules/coolie.js/coolie.js"
+        ]
+      }
+    ],
+    "css": [],
+    "res": [
+      "../webroot-dev/static/images/erweima.jpg",
+      "../webroot-dev/static/images/our-pingtai.png",
+      "../webroot-dev/static/images/a1.jpg",
+      "../webroot-dev/static/images/a2.jpg",
+      "../webroot-dev/static/images/a3.jpg"
+    ]
+  },
+  "/views/pages/server-error.html": {
+    "main": [],
+    "js": [],
+    "css": [],
+    "res": []
+  }
+}
