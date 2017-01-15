@@ -1,16 +1,33 @@
 {
   "/views/include/banner.html": {
     "main": [],
-    "js": [],
+    "js": [
+      {
+        "dest": "/static/js/20c229cfc6391aedbd8d59d09d073c44.js",
+        "deps": [
+          "../webroot-dev/static/js/libs/jquery/1.9.1/jquery.js"
+        ]
+      },
+      {
+        "dest": "/static/js/168ea858dd2a7bc0616a30dc995928ac.js",
+        "deps": [
+          "../webroot-dev/static/js/plugins/jquery.carouFredSel-6.0.4-packed.js"
+        ]
+      }
+    ],
     "css": [],
-    "res": []
+    "res": [
+      "../webroot-dev/static/images/index3.jpg",
+      "../webroot-dev/static/images/index2.jpg",
+      "../webroot-dev/static/images/index1.jpg"
+    ]
   },
   "/views/include/css_common.html": {
     "main": [],
     "js": [],
     "css": [
       {
-        "dest": "/static/css/fb04b5277af2bd88b45c652284a7f7d0.css",
+        "dest": "/static/css/9dc307012a8e091fbe4c92eb71fb6b34.css",
         "deps": [
           {
             "src": "../webroot-dev/static/css/base.css",
@@ -82,12 +99,26 @@
     "res": []
   },
   "/views/pages/about.html": {
-    "main": [],
-    "js": [],
+    "main": [
+      {
+        "src": "../webroot-dev/static/js/main/index.js",
+        "dest": "/static/js/main/40fdfaff9808e99e3f05e207cdee6fb5.js",
+        "deps": [
+          "../webroot-dev/static/js/widget/page-index.js",
+          "../webroot-dev/node_modules/jquery/dist/jquery.js"
+        ]
+      }
+    ],
+    "js": [
+      {
+        "dest": "/static/js/58f5ebd0bd081603d3e0742680be32c4.js",
+        "deps": [
+          "../webroot-dev/node_modules/coolie.js/coolie.js"
+        ]
+      }
+    ],
     "css": [],
     "res": [
-      "../webroot-dev/static/images/123.png",
-      "../webroot-dev/static/images/erweima.jpg",
       "../webroot-dev/static/images/s5.jpeg",
       "../webroot-dev/static/images/s1.jpeg",
       "../webroot-dev/static/images/s7.jpeg",
@@ -117,23 +148,32 @@
     ]
   },
   "/views/pages/guide.html": {
-    "main": [],
-    "js": [],
+    "main": [
+      {
+        "src": "../webroot-dev/static/js/main/index.js",
+        "dest": "/static/js/main/40fdfaff9808e99e3f05e207cdee6fb5.js",
+        "deps": [
+          "../webroot-dev/node_modules/jquery/dist/jquery.js"
+        ]
+      }
+    ],
+    "js": [
+      {
+        "dest": "/static/js/58f5ebd0bd081603d3e0742680be32c4.js",
+        "deps": [
+          "../webroot-dev/node_modules/coolie.js/coolie.js"
+        ]
+      }
+    ],
     "css": [],
-    "res": [
-      "../webroot-dev/static/images/123.png",
-      "../webroot-dev/static/images/erweima.jpg"
-    ]
+    "res": []
   },
   "/views/pages/index.html": {
     "main": [
       {
         "src": "../webroot-dev/static/js/main/index.js",
-        "dest": "/static/js/main/bef383ca46adceb150c716e1f5e63ee6.js",
-        "deps": [
-          "../webroot-dev/static/js/widget/page-index.js",
-          "../webroot-dev/node_modules/jquery/dist/jquery.js"
-        ]
+        "dest": "/static/js/main/40fdfaff9808e99e3f05e207cdee6fb5.js",
+        "deps": []
       }
     ],
     "js": [

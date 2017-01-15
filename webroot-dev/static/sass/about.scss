@@ -4,7 +4,7 @@
 }
 .list_efficiency{
 	ul{
-		width: 915px;
+		width: 1220px;
 		float: left;
 		zoom: 1;
 	}
@@ -22,14 +22,9 @@
 	float: right;
     margin: 0;
 }
-.efficiency_vertical{
-	.category{
-		top:426px;
-	}
-}
 .category{
 	position:absolute;
-	top: 146px;
+	top: 360px;
     left: 0;
     z-index: 2;
 	width:100%;
@@ -60,7 +55,6 @@
 			background-color: #fff;
 			display: block;
 			width: 285px;
-			height: 260px;
 		}
 	}
 }
@@ -104,7 +98,6 @@
 .efficiency_vertical{
 	a{
 		width: 285px;
-		height: 540px;
 		position: relative;
 		z-index: 1;
 		border-radius: 6px;
