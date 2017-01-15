@@ -1,0 +1,137 @@
+.list_efficiency{
+	width:1200px;
+	margin:0px auto;
+}
+.list_efficiency{
+	ul{
+		width: 915px;
+		float: left;
+		zoom: 1;
+	}
+}
+.list_efficiency{
+	li{
+		position:relative;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;
+	}
+}
+.efficiency_vertical{
+	position:relative;
+	float: right;
+    margin: 0;
+}
+.efficiency_vertical{
+	.category{
+		top:426px;
+	}
+}
+.category{
+	position:absolute;
+	top: 146px;
+    left: 0;
+    z-index: 2;
+	width:100%;
+    height: 28px;
+    overflow: hidden;
+    padding: 0 12px;
+}
+.category{
+	span{
+		display: inline-block;
+		line-height: 26px;
+		margin-right: 7px;
+		padding: 0 10px;
+		border: 1px solid rgba(255,255,255,.5);
+		color: #fff;
+		opacity: .8;
+		border-radius: 14px;
+		background-color: rgba(0,0,0,.3);
+	}
+}
+.list_efficiency{
+	li{
+		a{
+			background:#fff;
+			position: relative;
+			z-index: 1;
+			border-radius: 6px;
+			background-color: #fff;
+			display: block;
+			width: 285px;
+			height: 260px;
+		}
+	}
+}
+.list_efficiency{
+	li:hover{
+		box-shadow:0px 3px 20px #dedede;
+	}
+}
+.list_efficiency{
+	li:hover a{
+		color:#000;
+	}
+}
+.list_efficiency{
+	.title{
+		font-size: 18px;
+		font-weight: 700;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		word-wrap: normal;
+		padding: 0 16px;
+	}
+}
+.self_title{
+	font-weight: 400;
+    font-size: 16px;
+}
+.list_efficiency{
+	.profile{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		word-wrap: normal;
+		padding: 0 16px;
+	}
+}
+.head_pic{
+	margin-bottom: 10px;
+}
+.efficiency_vertical{
+	a{
+		width: 285px;
+		height: 540px;
+		position: relative;
+		z-index: 1;
+		border-radius: 6px;
+		background-color: #fff;
+		display: block;
+	}
+}
+.efficiency_vertical:hover{
+	box-shadow:0px 3px 20px #dedede;
+}
+.efficiency_vertical:hover a{
+	color:#000;
+}
+
+.box-bg{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:100;
+}
+.big-icon{
+	position:fixed;
+	width:400px;
+	top:50%;
+	left:50%;
+	margin-left:-200px;
+}

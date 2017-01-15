@@ -31,7 +31,7 @@
   border-bottom: 3px solid #E88C08;
   position: relative;
   z-index: 0;
-
+  overflow:hidden;
   .slogan {
     width: 100%;
     position: absolute;
@@ -338,7 +338,9 @@ body {
 }
 /*主页新增某块1*/
 .index-add-one {
-  width: 100%;
+  /*width: 100%;*/
+  width:1200px;
+  margin:0px auto;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 18rem;
@@ -377,9 +379,11 @@ body {
 }
 /*个人猎头*/
 .index-add-lietou {
-  margin-top: 4rem;
-  text-align: center;
-  margin-bottom: 0;
+	width:1200px;
+	margin:0px auto;
+	margin-top: 4rem;
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .index-add-lietou h3 {
@@ -423,9 +427,11 @@ body {
 }
 /*企业*/
 .index-add-qiye {
-  margin-top: 6rem;
-  text-align: center;
-  width: 100%;
+	width:1200px;
+	margin:0px auto;
+	margin-top: 6rem;
+	text-align: center;
+	
 }
 
 .index-add-qiye h3 {
@@ -448,9 +454,11 @@ body {
 }
 /*求职者*/
 .index-add-qizhizhe {
-  margin-top: 6rem;
-  text-align: center;
-  width: 100%;
+	width:1200px;
+	margin:0px auto;
+    margin-top: 6rem;
+    text-align: center;
+    
 }
 
 .index-add-qizhizhe h3 {
@@ -673,7 +681,7 @@ body {
   padding: 38px 25px 0;
   float: left;
   border: 1px solid #ccc;
-  margin: 30px 0 0 30px;
+  margin: 30px 0 0 45px;
   cursor: pointer;
 }
 
@@ -847,11 +855,11 @@ body {
 }
 
 .about-add-one-left {
-  width: 50%;
+  width: 35%;
 }
 
 .about-add-one-right {
-  width: 50%;
+  width: 65%;
   text-align: left;
   margin-top: 4rem;
   font-size: 21px;
