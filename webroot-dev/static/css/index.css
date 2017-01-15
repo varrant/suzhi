@@ -291,8 +291,7 @@ body {
   margin-bottom: 1rem;
   margin-left: 8rem;
   font-size: 30px;
-  color: brown;
-  text-shadow: 2px 1px 0 brown; }
+  color: #E88C08; }
 
 .index-add-one .our-pingtai {
   margin: 0 auto; }
@@ -312,98 +311,6 @@ body {
   width: 400px;
   line-height: 2rem;
   font-size: 16px; }
-
-/*个人猎头*/
-.index-add-lietou {
-  width: 1200px;
-  margin: 0px auto;
-  margin-top: 4rem;
-  text-align: center;
-  margin-bottom: 0; }
-
-.index-add-lietou h3 {
-  text-align: left;
-  margin-bottom: 1rem;
-  margin-left: 8rem;
-  font-size: 30px;
-  color: brown;
-  text-shadow: 2px 1px 0 brown; }
-
-.index-add-lietou .our-pingtai {
-  margin: 0 auto; }
-
-.pingtai-left {
-  float: left;
-  display: inline-block;
-  width: 50%; }
-
-.pingtai-right {
-  float: right;
-  display: inline-block;
-  width: 50%; }
-
-/*个人猎头-副*/
-.index-add-lietou-fu {
-  margin-top: 17rem;
-  text-align: center;
-  width: 100%; }
-
-.grlt {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 18px;
-  color: #E08B21;
-  font-weight: bold;
-  margin-top: 17rem; }
-
-/*企业*/
-.index-add-qiye {
-  width: 1200px;
-  margin: 0px auto;
-  margin-top: 6rem;
-  text-align: center; }
-
-.index-add-qiye h3 {
-  text-align: left;
-  margin-bottom: 1rem;
-  margin-left: 8rem;
-  font-size: 30px;
-  color: brown;
-  text-shadow: 2px 1px 0 brown; }
-
-.qiye {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 17rem;
-  text-align: center;
-  font-size: 18px;
-  color: #E08B21;
-  font-weight: bold; }
-
-/*求职者*/
-.index-add-qizhizhe {
-  width: 1200px;
-  margin: 0px auto;
-  margin-top: 6rem;
-  text-align: center; }
-
-.index-add-qizhizhe h3 {
-  text-align: left;
-  margin-bottom: 1rem;
-  margin-left: 8rem;
-  font-size: 30px;
-  color: brown;
-  text-shadow: 2px 1px 0 brown; }
-
-.qiuzhizhe {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 17rem;
-  margin-bottom: 4rem;
-  text-align: center;
-  font-size: 18px;
-  color: #E08B21;
-  font-weight: bold; }
 
 /*点击按的弹出框*/
 .erweima-kuang {

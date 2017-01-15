@@ -23,16 +23,20 @@ define(function(require, exports, module) {
 
     // 显示二维码
     showQrCode: function(params) {
-      params.suzhi_wenzi.hover(function() {
-        params.pic_qrcode.animate({
-          opacity: 1
-        }, 500);
-      }, function() {
-        params.pic_qrcode.animate({
-          opacity: 0
-        }, 500);
-      });
+      setTimeout(test,1000);
+      var test =function(){
+        params.suzhi_wenzi.hover(function() {
+          params.pic_qrcode.animate({
+            opacity: 1
+          }, 500);
+        }, function() {
+          params.pic_qrcode.animate({
+            opacity: 0
+          }, 500);
+        });
+      }
     },
+
     //导航切换底部横线显示隐藏;
     showHeaderLine: function(params) {
       var $sidedline = params.header_line;
