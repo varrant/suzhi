@@ -23,18 +23,22 @@ define(function(require, exports, module) {
 
     // 显示二维码
     showQrCode: function(params) {
-      setTimeout(test,1000);
-      var test =function(){
-        params.suzhi_wenzi.hover(function() {
-          params.pic_qrcode.animate({
-            opacity: 1
-          }, 500);
-        }, function() {
-          params.pic_qrcode.animate({
-            opacity: 0
-          }, 500);
-        });
-      }
+      var t;
+      params.suzhi_wenzi.hover(function() {
+        t = setTimeout(function() {
+            //要执行的操作；鼠标放上去后200毫秒才执行
+            params.pic_qrcode.animate({
+              opacity: 1
+            }, 50);
+          },
+          200);
+
+      }, function() {
+        clearTimeout(t);
+        params.pic_qrcode.animate({
+          opacity: 0
+        }, 500);
+      });
     },
 
     //导航切换底部横线显示隐藏;

@@ -1,6 +1,6 @@
 .list_efficiency {
   width: 1200px;
-  margin: 0px auto; }
+  margin: 0 auto; }
 
 .list_efficiency ul {
   width: 1220px;
@@ -11,7 +11,43 @@
   position: relative;
   float: left;
   margin-right: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  filter: grayscale(100%);
+  box-shadow: 0 3px 20px #dedede;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease; }
+  .list_efficiency li a {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 6px;
+    display: block;
+    width: 285px;
+    height: 472px;
+    color: #555; }
+    .list_efficiency li a .title {
+      font-size: 18px;
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      word-wrap: normal;
+      padding: 0 16px; }
+    .list_efficiency li a .profile {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      word-wrap: normal;
+      padding: 0 16px; }
+    .list_efficiency li a:hover {
+      color: #000; }
+  .list_efficiency li:hover {
+    border-radius: 10px;
+    filter: grayscale(0%);
+    box-shadow: 0 0 3px #555;
+    color: #000 !important;
+    -webkit-transform: scale(1.04, 1.04);
+    transform: scale(1.04, 1.04); }
 
 .efficiency_vertical {
   position: relative;
@@ -35,45 +71,13 @@
   padding: 0 10px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: #fff;
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 14px;
   background-color: rgba(0, 0, 0, 0.3); }
-
-.list_efficiency li a {
-  background: #fff;
-  position: relative;
-  z-index: 1;
-  border-radius: 6px;
-  background-color: #fff;
-  display: block;
-  width: 285px;
-  height: 472px; }
-
-.list_efficiency li:hover {
-  box-shadow: 0px 3px 20px #dedede; }
-
-.list_efficiency li:hover a {
-  color: #000; }
-
-.list_efficiency .title {
-  font-size: 18px;
-  font-weight: 700;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-  padding: 0 16px; }
 
 .self_title {
   font-weight: 400;
   font-size: 16px; }
-
-.list_efficiency .profile {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-  padding: 0 16px; }
 
 .head_pic {
   margin-bottom: 10px; }
@@ -87,15 +91,15 @@
   display: block; }
 
 .efficiency_vertical:hover {
-  box-shadow: 0px 3px 20px #dedede; }
+  box-shadow: 0 3px 20px #dedede; }
 
 .efficiency_vertical:hover a {
   color: #000; }
 
 .box-bg {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);

@@ -232,10 +232,6 @@
   background-color: #e9ebf0;
   text-align: center; }
 
-/*!index/page/index-c/main.less*/
-body {
-  background-color: #f8f9fb; }
-
 .nav_banner {
   position: relative; }
 
@@ -283,8 +279,7 @@ body {
   width: 1200px;
   margin: 0px auto;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 18rem; }
+  margin-top: 2rem; }
 
 .index-add-one h3 {
   text-align: left;
@@ -302,7 +297,6 @@ body {
   width: 50%; }
 
 .pingtai-right {
-  float: right;
   display: inline-block;
   width: 50%; }
 
